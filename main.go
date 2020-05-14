@@ -1,4 +1,3 @@
-/*https://tutorialedge.net/golang/creating-restful-api-with-golang/#building-our-router*/
 package main
 
 import (
@@ -12,65 +11,19 @@ import (
 	"github.com/gorilla/mux"
 )
 
-func homePage(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Welcome to the HomePage!")
-	fmt.Println("Endpoint Hit: homePage")
-}
-
 func handleRequests() {
-	// creates a new instance of a mux router
 	myRouter := mux.NewRouter().StrictSlash(true)
-	// replace http.HandleFunc with myRouter.HandleFunc
-	myRouter.HandleFunc("/", homePage)
-	myRouter.HandleFunc("/all", returnAllArticles)
-	myRouter.HandleFunc("/articles", returnAllArticles)
-	myRouter.HandleFunc("/article", createNewArticle).Methods("POST")
-	myRouter.HandleFunc("/article/{id}", returnSingleArticle)
 	myRouter.HandleFunc("/api/{git_name}/{git_repo}", returnRepo)
-	// finally, instead of passing in nil, we want
-	// to pass in our newly created router as the second
-	// argument
 	log.Fatal(http.ListenAndServe(":10000", myRouter))
 }
 
 func main() {
-	fmt.Println("Rest API v2.0 - Mux Routers")
-	Articles = []Article{
-		Article{ID: "1", Title: "Hello", Desc: "Article Description", Content: "Article Content"},
-		Article{ID: "2", Title: "Hello 2", Desc: "Article Description", Content: "Article Content"},
-	}
 	handleRequests()
 }
 
-func returnAllArticles(w http.ResponseWriter, r *http.Request) {
-	fmt.Println("Endpoint Hit: returnAllArticles")
-	json.NewEncoder(w).Encode(Articles)
-}
-
-func returnSingleArticle(w http.ResponseWriter, r *http.Request) {
-	vars := mux.Vars(r)
-	key := vars["id"]
-
-	for _, article := range Articles {
-		if article.ID == key {
-			json.NewEncoder(w).Encode(article)
-		}
-	}
-}
-
-func createNewArticle(w http.ResponseWriter, r *http.Request) {
-	reqBody, _ := ioutil.ReadAll(r.Body)
-	var article Article
-	json.Unmarshal(reqBody, &article)
-	Articles = append(Articles, article)
-	json.NewEncoder(w).Encode(article)
-}
-
-func getRepoData(user string, repo string, contents chan []FileMetadata) {
-	url := "https://api.github.com/repos/" + user + "/" + repo + "/contents/"
+func getFileData(user string, repo string, filePath string, contents chan File) {
+	url := "https://api.github.com/repos/" + user + "/" + repo + "/contents/" + filePath
 	response, err := http.Get(url)
-	fmt.Println(url)
-	fmt.Println(response.StatusCode)
 	if err != nil {
 		fmt.Print(err.Error())
 	}
@@ -82,11 +35,41 @@ func getRepoData(user string, repo string, contents chan []FileMetadata) {
 		log.Fatal(err)
 	}
 
-	fmt.Println(string(responseData))
+	var fileData File
+	json.Unmarshal(responseData, &fileData)
+
+	contents <- fileData
+}
+
+func getRepoData(user string, repo string, contents chan []FileMetadata) {
+	url := "https://api.github.com/repos/" + user + "/" + repo + "/contents/"
+	response, err := http.Get(url)
+	if err != nil {
+		fmt.Print(err.Error())
+	}
+
+	defer response.Body.Close()
+
+	responseData, err := ioutil.ReadAll(response.Body)
+	if err != nil {
+		log.Fatal(err)
+	}
+
 	var repoData []FileMetadata
 	json.Unmarshal(responseData, &repoData)
-	// data appears to not be loading in time, returns {[]}
-	fmt.Println(repoData)
+
+	// this would need to be updated for repos dealing with folders
+	// this will currently only get data for top level files
+
+	files := make(chan File, len(repoData))
+	for _, file := range repoData {
+		if file.Type == "file" {
+			go getFileData(user, repo, file.Path, files)
+			Files = append(Files, <-files)
+		}
+	}
+
+	fmt.Print(len(Files))
 
 	contents <- repoData
 }
@@ -105,18 +88,6 @@ func decodeString(encodedString string) string {
 	fmt.Printf(string(decodedString))
 	return string(decodedString)
 }
-
-// Article ...
-type Article struct {
-	ID      string `json:"Id"`
-	Title   string `json:"Title"`
-	Desc    string `json:"desc"`
-	Content string `json:"content"`
-}
-
-// type RepoContents struct {
-// 	Files []File
-// }
 
 // FileMetadata ...
 type FileMetadata struct {
@@ -146,8 +117,8 @@ type Links struct {
 	HTML string `json:"html"`
 }
 
-// Articles ...
-var Articles []Article
-
 // Contents ...
 var Contents []FileMetadata
+
+// Files ...
+var Files []File
