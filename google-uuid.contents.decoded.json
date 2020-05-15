@@ -1,0 +1,416 @@
+[
+    {
+        "name": ".travis.yml",
+        "path": ".travis.yml",
+        "sha": "d8156a60ba9b3affe8a7ebd9c1a7ca3a06674e55",
+        "size": 76,
+        "url": "https://api.github.com/repos/google/uuid/contents/.travis.yml?ref=master",
+        "html_url": "https://github.com/google/uuid/blob/master/.travis.yml",
+        "git_url": "https://api.github.com/repos/google/uuid/git/blobs/d8156a60ba9b3affe8a7ebd9c1a7ca3a06674e55",
+        "download_url": "https://raw.githubusercontent.com/google/uuid/master/.travis.yml",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/google/uuid/contents/.travis.yml?ref=master",
+            "git": "https://api.github.com/repos/google/uuid/git/blobs/d8156a60ba9b3affe8a7ebd9c1a7ca3a06674e55",
+            "html": "https://github.com/google/uuid/blob/master/.travis.yml"
+        },
+        "content": "language: go\n\ngo:\n  - 1.4.3\n  - 1.5.3\n  - tip\n\nscript:\n  - go test -v ./...\n",
+        "encoding": "base64"
+    },
+    {
+        "name": "CONTRIBUTING.md",
+        "path": "CONTRIBUTING.md",
+        "sha": "04fdf09f136bbbb8687d537c1e5967800c0177a8",
+        "size": 312,
+        "url": "https://api.github.com/repos/google/uuid/contents/CONTRIBUTING.md?ref=master",
+        "html_url": "https://github.com/google/uuid/blob/master/CONTRIBUTING.md",
+        "git_url": "https://api.github.com/repos/google/uuid/git/blobs/04fdf09f136bbbb8687d537c1e5967800c0177a8",
+        "download_url": "https://raw.githubusercontent.com/google/uuid/master/CONTRIBUTING.md",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/google/uuid/contents/CONTRIBUTING.md?ref=master",
+            "git": "https://api.github.com/repos/google/uuid/git/blobs/04fdf09f136bbbb8687d537c1e5967800c0177a8",
+            "html": "https://github.com/google/uuid/blob/master/CONTRIBUTING.md"
+        },
+        "content": "# How to contribute\n\nWe definitely welcome patches and contribution to this project!\n\n### Legal requirements\n\nIn order to protect both you and ourselves, you will need to sign the\n[Contributor License Agreement](https://cla.developers.google.com/clas).\n\nYou may have already signed it for other Google projects.\n",
+        "encoding": "base64"
+    },
+    {
+        "name": "CONTRIBUTORS",
+        "path": "CONTRIBUTORS",
+        "sha": "b4bb97f6bcd0d78febc158e7396f10353cdef312",
+        "size": 105,
+        "url": "https://api.github.com/repos/google/uuid/contents/CONTRIBUTORS?ref=master",
+        "html_url": "https://github.com/google/uuid/blob/master/CONTRIBUTORS",
+        "git_url": "https://api.github.com/repos/google/uuid/git/blobs/b4bb97f6bcd0d78febc158e7396f10353cdef312",
+        "download_url": "https://raw.githubusercontent.com/google/uuid/master/CONTRIBUTORS",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/google/uuid/contents/CONTRIBUTORS?ref=master",
+            "git": "https://api.github.com/repos/google/uuid/git/blobs/b4bb97f6bcd0d78febc158e7396f10353cdef312",
+            "html": "https://github.com/google/uuid/blob/master/CONTRIBUTORS"
+        },
+        "content": "Paul Borman \u003cborman@google.com\u003e\nbmatsuo\nshawnps\ntheory\njboverfelt\ndsymonds\ncd1\nwallclockbuilder\ndansouza\n",
+        "encoding": "base64"
+    },
+    {
+        "name": "LICENSE",
+        "path": "LICENSE",
+        "sha": "5dc68268d900581915a7bfdc1f2be75cd503dd9e",
+        "size": 1480,
+        "url": "https://api.github.com/repos/google/uuid/contents/LICENSE?ref=master",
+        "html_url": "https://github.com/google/uuid/blob/master/LICENSE",
+        "git_url": "https://api.github.com/repos/google/uuid/git/blobs/5dc68268d900581915a7bfdc1f2be75cd503dd9e",
+        "download_url": "https://raw.githubusercontent.com/google/uuid/master/LICENSE",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/google/uuid/contents/LICENSE?ref=master",
+            "git": "https://api.github.com/repos/google/uuid/git/blobs/5dc68268d900581915a7bfdc1f2be75cd503dd9e",
+            "html": "https://github.com/google/uuid/blob/master/LICENSE"
+        },
+        "content": "Copyright (c) 2009,2014 Google Inc. All rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are\nmet:\n\n   * Redistributions of source code must retain the above copyright\nnotice, this list of conditions and the following disclaimer.\n   * Redistributions in binary form must reproduce the above\ncopyright notice, this list of conditions and the following disclaimer\nin the documentation and/or other materials provided with the\ndistribution.\n   * Neither the name of Google Inc. nor the names of its\ncontributors may be used to endorse or promote products derived from\nthis software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS\n\"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT\nLIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR\nA PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT\nOWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,\nSPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT\nLIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\nDATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY\nTHEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT\n(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n",
+        "encoding": "base64"
+    },
+    {
+        "name": "README.md",
+        "path": "README.md",
+        "sha": "f765a46f9150130c9ced6c414b13b0b5b6f735f6",
+        "size": 880,
+        "url": "https://api.github.com/repos/google/uuid/contents/README.md?ref=master",
+        "html_url": "https://github.com/google/uuid/blob/master/README.md",
+        "git_url": "https://api.github.com/repos/google/uuid/git/blobs/f765a46f9150130c9ced6c414b13b0b5b6f735f6",
+        "download_url": "https://raw.githubusercontent.com/google/uuid/master/README.md",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/google/uuid/contents/README.md?ref=master",
+            "git": "https://api.github.com/repos/google/uuid/git/blobs/f765a46f9150130c9ced6c414b13b0b5b6f735f6",
+            "html": "https://github.com/google/uuid/blob/master/README.md"
+        },
+        "content": "# uuid ![build status](https://travis-ci.org/google/uuid.svg?branch=master)\nThe uuid package generates and inspects UUIDs based on\n[RFC 4122](http://tools.ietf.org/html/rfc4122)\nand DCE 1.1: Authentication and Security Services. \n\nThis package is based on the github.com/pborman/uuid package (previously named\ncode.google.com/p/go-uuid).  It differs from these earlier packages in that\na UUID is a 16 byte array rather than a byte slice.  One loss due to this\nchange is the ability to represent an invalid UUID (vs a NIL UUID).\n\n###### Install\n`go get github.com/google/uuid`\n\n###### Documentation \n[![GoDoc](https://godoc.org/github.com/google/uuid?status.svg)](http://godoc.org/github.com/google/uuid)\n\nFull `go doc` style documentation for the package can be viewed online without\ninstalling this package by using the GoDoc site here: \nhttp://pkg.go.dev/github.com/google/uuid\n",
+        "encoding": "base64"
+    },
+    {
+        "name": "dce.go",
+        "path": "dce.go",
+        "sha": "fa820b9d3092b433238026b451eca869387d91fb",
+        "size": 2072,
+        "url": "https://api.github.com/repos/google/uuid/contents/dce.go?ref=master",
+        "html_url": "https://github.com/google/uuid/blob/master/dce.go",
+        "git_url": "https://api.github.com/repos/google/uuid/git/blobs/fa820b9d3092b433238026b451eca869387d91fb",
+        "download_url": "https://raw.githubusercontent.com/google/uuid/master/dce.go",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/google/uuid/contents/dce.go?ref=master",
+            "git": "https://api.github.com/repos/google/uuid/git/blobs/fa820b9d3092b433238026b451eca869387d91fb",
+            "html": "https://github.com/google/uuid/blob/master/dce.go"
+        },
+        "content": "// Copyright 2016 Google Inc.  All rights reserved.\n// Use of this source code is governed by a BSD-style\n// license that can be found in the LICENSE file.\n\npackage uuid\n\nimport (\n\t\"encoding/binary\"\n\t\"fmt\"\n\t\"os\"\n)\n\n// A Domain represents a Version 2 domain\ntype Domain byte\n\n// Domain constants for DCE Security (Version 2) UUIDs.\nconst (\n\tPerson = Domain(0)\n\tGroup  = Domain(1)\n\tOrg    = Domain(2)\n)\n\n// NewDCESecurity returns a DCE Security (Version 2) UUID.\n//\n// The domain should be one of Person, Group or Org.\n// On a POSIX system the id should be the users UID for the Person\n// domain and the users GID for the Group.  The meaning of id for\n// the domain Org or on non-POSIX systems is site defined.\n//\n// For a given domain/id pair the same token may be returned for up to\n// 7 minutes and 10 seconds.\nfunc NewDCESecurity(domain Domain, id uint32) (UUID, error) {\n\tuuid, err := NewUUID()\n\tif err == nil {\n\t\tuuid[6] = (uuid[6] \u0026 0x0f) | 0x20 // Version 2\n\t\tuuid[9] = byte(domain)\n\t\tbinary.BigEndian.PutUint32(uuid[0:], id)\n\t}\n\treturn uuid, err\n}\n\n// NewDCEPerson returns a DCE Security (Version 2) UUID in the person\n// domain with the id returned by os.Getuid.\n//\n//  NewDCESecurity(Person, uint32(os.Getuid()))\nfunc NewDCEPerson() (UUID, error) {\n\treturn NewDCESecurity(Person, uint32(os.Getuid()))\n}\n\n// NewDCEGroup returns a DCE Security (Version 2) UUID in the group\n// domain with the id returned by os.Getgid.\n//\n//  NewDCESecurity(Group, uint32(os.Getgid()))\nfunc NewDCEGroup() (UUID, error) {\n\treturn NewDCESecurity(Group, uint32(os.Getgid()))\n}\n\n// Domain returns the domain for a Version 2 UUID.  Domains are only defined\n// for Version 2 UUIDs.\nfunc (uuid UUID) Domain() Domain {\n\treturn Domain(uuid[9])\n}\n\n// ID returns the id for a Version 2 UUID. IDs are only defined for Version 2\n// UUIDs.\nfunc (uuid UUID) ID() uint32 {\n\treturn binary.BigEndian.Uint32(uuid[0:4])\n}\n\nfunc (d Domain) String() string {\n\tswitch d {\n\tcase Person:\n\t\treturn \"Person\"\n\tcase Group:\n\t\treturn \"Group\"\n\tcase Org:\n\t\treturn \"Org\"\n\t}\n\treturn fmt.Sprintf(\"Domain%d\", int(d))\n}\n",
+        "encoding": "base64"
+    },
+    {
+        "name": "doc.go",
+        "path": "doc.go",
+        "sha": "5b8a4b9af8ce30230b0541d1ab3d2aa63d637739",
+        "size": 407,
+        "url": "https://api.github.com/repos/google/uuid/contents/doc.go?ref=master",
+        "html_url": "https://github.com/google/uuid/blob/master/doc.go",
+        "git_url": "https://api.github.com/repos/google/uuid/git/blobs/5b8a4b9af8ce30230b0541d1ab3d2aa63d637739",
+        "download_url": "https://raw.githubusercontent.com/google/uuid/master/doc.go",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/google/uuid/contents/doc.go?ref=master",
+            "git": "https://api.github.com/repos/google/uuid/git/blobs/5b8a4b9af8ce30230b0541d1ab3d2aa63d637739",
+            "html": "https://github.com/google/uuid/blob/master/doc.go"
+        },
+        "content": "// Copyright 2016 Google Inc.  All rights reserved.\n// Use of this source code is governed by a BSD-style\n// license that can be found in the LICENSE file.\n\n// Package uuid generates and inspects UUIDs.\n//\n// UUIDs are based on RFC 4122 and DCE 1.1: Authentication and Security\n// Services.\n//\n// A UUID is a 16 byte (128 bit) array.  UUIDs may be used as keys to\n// maps or compared directly.\npackage uuid\n",
+        "encoding": "base64"
+    },
+    {
+        "name": "go.mod",
+        "path": "go.mod",
+        "sha": "fc84cd79d4c79a2ad598d6c5285473aa32b34982",
+        "size": 30,
+        "url": "https://api.github.com/repos/google/uuid/contents/go.mod?ref=master",
+        "html_url": "https://github.com/google/uuid/blob/master/go.mod",
+        "git_url": "https://api.github.com/repos/google/uuid/git/blobs/fc84cd79d4c79a2ad598d6c5285473aa32b34982",
+        "download_url": "https://raw.githubusercontent.com/google/uuid/master/go.mod",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/google/uuid/contents/go.mod?ref=master",
+            "git": "https://api.github.com/repos/google/uuid/git/blobs/fc84cd79d4c79a2ad598d6c5285473aa32b34982",
+            "html": "https://github.com/google/uuid/blob/master/go.mod"
+        },
+        "content": "module github.com/google/uuid\n",
+        "encoding": "base64"
+    },
+    {
+        "name": "hash.go",
+        "path": "hash.go",
+        "sha": "b174616315118a6a4be1df6a5d6c42f3e2c17912",
+        "size": 1716,
+        "url": "https://api.github.com/repos/google/uuid/contents/hash.go?ref=master",
+        "html_url": "https://github.com/google/uuid/blob/master/hash.go",
+        "git_url": "https://api.github.com/repos/google/uuid/git/blobs/b174616315118a6a4be1df6a5d6c42f3e2c17912",
+        "download_url": "https://raw.githubusercontent.com/google/uuid/master/hash.go",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/google/uuid/contents/hash.go?ref=master",
+            "git": "https://api.github.com/repos/google/uuid/git/blobs/b174616315118a6a4be1df6a5d6c42f3e2c17912",
+            "html": "https://github.com/google/uuid/blob/master/hash.go"
+        },
+        "content": "// Copyright 2016 Google Inc.  All rights reserved.\n// Use of this source code is governed by a BSD-style\n// license that can be found in the LICENSE file.\n\npackage uuid\n\nimport (\n\t\"crypto/md5\"\n\t\"crypto/sha1\"\n\t\"hash\"\n)\n\n// Well known namespace IDs and UUIDs\nvar (\n\tNameSpaceDNS  = Must(Parse(\"6ba7b810-9dad-11d1-80b4-00c04fd430c8\"))\n\tNameSpaceURL  = Must(Parse(\"6ba7b811-9dad-11d1-80b4-00c04fd430c8\"))\n\tNameSpaceOID  = Must(Parse(\"6ba7b812-9dad-11d1-80b4-00c04fd430c8\"))\n\tNameSpaceX500 = Must(Parse(\"6ba7b814-9dad-11d1-80b4-00c04fd430c8\"))\n\tNil           UUID // empty UUID, all zeros\n)\n\n// NewHash returns a new UUID derived from the hash of space concatenated with\n// data generated by h.  The hash should be at least 16 byte in length.  The\n// first 16 bytes of the hash are used to form the UUID.  The version of the\n// UUID will be the lower 4 bits of version.  NewHash is used to implement\n// NewMD5 and NewSHA1.\nfunc NewHash(h hash.Hash, space UUID, data []byte, version int) UUID {\n\th.Reset()\n\th.Write(space[:])\n\th.Write(data)\n\ts := h.Sum(nil)\n\tvar uuid UUID\n\tcopy(uuid[:], s)\n\tuuid[6] = (uuid[6] \u0026 0x0f) | uint8((version\u00260xf)\u003c\u003c4)\n\tuuid[8] = (uuid[8] \u0026 0x3f) | 0x80 // RFC 4122 variant\n\treturn uuid\n}\n\n// NewMD5 returns a new MD5 (Version 3) UUID based on the\n// supplied name space and data.  It is the same as calling:\n//\n//  NewHash(md5.New(), space, data, 3)\nfunc NewMD5(space UUID, data []byte) UUID {\n\treturn NewHash(md5.New(), space, data, 3)\n}\n\n// NewSHA1 returns a new SHA1 (Version 5) UUID based on the\n// supplied name space and data.  It is the same as calling:\n//\n//  NewHash(sha1.New(), space, data, 5)\nfunc NewSHA1(space UUID, data []byte) UUID {\n\treturn NewHash(sha1.New(), space, data, 5)\n}\n",
+        "encoding": "base64"
+    },
+    {
+        "name": "json_test.go",
+        "path": "json_test.go",
+        "sha": "245f91edfbaf2893b18d1fcd0f4c2db99b0be6d1",
+        "size": 1244,
+        "url": "https://api.github.com/repos/google/uuid/contents/json_test.go?ref=master",
+        "html_url": "https://github.com/google/uuid/blob/master/json_test.go",
+        "git_url": "https://api.github.com/repos/google/uuid/git/blobs/245f91edfbaf2893b18d1fcd0f4c2db99b0be6d1",
+        "download_url": "https://raw.githubusercontent.com/google/uuid/master/json_test.go",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/google/uuid/contents/json_test.go?ref=master",
+            "git": "https://api.github.com/repos/google/uuid/git/blobs/245f91edfbaf2893b18d1fcd0f4c2db99b0be6d1",
+            "html": "https://github.com/google/uuid/blob/master/json_test.go"
+        },
+        "content": "// Copyright 2016 Google Inc.  All rights reserved.\n// Use of this source code is governed by a BSD-style\n// license that can be found in the LICENSE file.\n\npackage uuid\n\nimport (\n\t\"encoding/json\"\n\t\"reflect\"\n\t\"testing\"\n)\n\nvar testUUID = Must(Parse(\"f47ac10b-58cc-0372-8567-0e02b2c3d479\"))\n\nfunc TestJSON(t *testing.T) {\n\ttype S struct {\n\t\tID1 UUID\n\t\tID2 UUID\n\t}\n\ts1 := S{ID1: testUUID}\n\tdata, err := json.Marshal(\u0026s1)\n\tif err != nil {\n\t\tt.Fatal(err)\n\t}\n\tvar s2 S\n\tif err := json.Unmarshal(data, \u0026s2); err != nil {\n\t\tt.Fatal(err)\n\t}\n\tif !reflect.DeepEqual(\u0026s1, \u0026s2) {\n\t\tt.Errorf(\"got %#v, want %#v\", s2, s1)\n\t}\n}\n\nfunc BenchmarkUUID_MarshalJSON(b *testing.B) {\n\tx := \u0026struct {\n\t\tUUID UUID `json:\"uuid\"`\n\t}{}\n\tvar err error\n\tx.UUID, err = Parse(\"f47ac10b-58cc-0372-8567-0e02b2c3d479\")\n\tif err != nil {\n\t\tb.Fatal(err)\n\t}\n\tfor i := 0; i \u003c b.N; i++ {\n\t\tjs, err := json.Marshal(x)\n\t\tif err != nil {\n\t\t\tb.Fatalf(\"marshal json: %#v (%v)\", js, err)\n\t\t}\n\t}\n}\n\nfunc BenchmarkUUID_UnmarshalJSON(b *testing.B) {\n\tjs := []byte(`{\"uuid\":\"f47ac10b-58cc-0372-8567-0e02b2c3d479\"}`)\n\tvar x *struct {\n\t\tUUID UUID `json:\"uuid\"`\n\t}\n\tfor i := 0; i \u003c b.N; i++ {\n\t\terr := json.Unmarshal(js, \u0026x)\n\t\tif err != nil {\n\t\t\tb.Fatalf(\"marshal json: %#v (%v)\", js, err)\n\t\t}\n\t}\n}\n",
+        "encoding": "base64"
+    },
+    {
+        "name": "marshal.go",
+        "path": "marshal.go",
+        "sha": "7f9e0c6c0e385471487c18a0e7577a6191ee30e2",
+        "size": 895,
+        "url": "https://api.github.com/repos/google/uuid/contents/marshal.go?ref=master",
+        "html_url": "https://github.com/google/uuid/blob/master/marshal.go",
+        "git_url": "https://api.github.com/repos/google/uuid/git/blobs/7f9e0c6c0e385471487c18a0e7577a6191ee30e2",
+        "download_url": "https://raw.githubusercontent.com/google/uuid/master/marshal.go",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/google/uuid/contents/marshal.go?ref=master",
+            "git": "https://api.github.com/repos/google/uuid/git/blobs/7f9e0c6c0e385471487c18a0e7577a6191ee30e2",
+            "html": "https://github.com/google/uuid/blob/master/marshal.go"
+        },
+        "content": "// Copyright 2016 Google Inc.  All rights reserved.\n// Use of this source code is governed by a BSD-style\n// license that can be found in the LICENSE file.\n\npackage uuid\n\nimport \"fmt\"\n\n// MarshalText implements encoding.TextMarshaler.\nfunc (uuid UUID) MarshalText() ([]byte, error) {\n\tvar js [36]byte\n\tencodeHex(js[:], uuid)\n\treturn js[:], nil\n}\n\n// UnmarshalText implements encoding.TextUnmarshaler.\nfunc (uuid *UUID) UnmarshalText(data []byte) error {\n\tid, err := ParseBytes(data)\n\tif err == nil {\n\t\t*uuid = id\n\t}\n\treturn err\n}\n\n// MarshalBinary implements encoding.BinaryMarshaler.\nfunc (uuid UUID) MarshalBinary() ([]byte, error) {\n\treturn uuid[:], nil\n}\n\n// UnmarshalBinary implements encoding.BinaryUnmarshaler.\nfunc (uuid *UUID) UnmarshalBinary(data []byte) error {\n\tif len(data) != 16 {\n\t\treturn fmt.Errorf(\"invalid UUID (got %d bytes)\", len(data))\n\t}\n\tcopy(uuid[:], data)\n\treturn nil\n}\n",
+        "encoding": "base64"
+    },
+    {
+        "name": "node.go",
+        "path": "node.go",
+        "sha": "d651a2b0619fa44b7f24cdaf731197e6c1023863",
+        "size": 2323,
+        "url": "https://api.github.com/repos/google/uuid/contents/node.go?ref=master",
+        "html_url": "https://github.com/google/uuid/blob/master/node.go",
+        "git_url": "https://api.github.com/repos/google/uuid/git/blobs/d651a2b0619fa44b7f24cdaf731197e6c1023863",
+        "download_url": "https://raw.githubusercontent.com/google/uuid/master/node.go",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/google/uuid/contents/node.go?ref=master",
+            "git": "https://api.github.com/repos/google/uuid/git/blobs/d651a2b0619fa44b7f24cdaf731197e6c1023863",
+            "html": "https://github.com/google/uuid/blob/master/node.go"
+        },
+        "content": "// Copyright 2016 Google Inc.  All rights reserved.\n// Use of this source code is governed by a BSD-style\n// license that can be found in the LICENSE file.\n\npackage uuid\n\nimport (\n\t\"sync\"\n)\n\nvar (\n\tnodeMu sync.Mutex\n\tifname string  // name of interface being used\n\tnodeID [6]byte // hardware for version 1 UUIDs\n\tzeroID [6]byte // nodeID with only 0's\n)\n\n// NodeInterface returns the name of the interface from which the NodeID was\n// derived.  The interface \"user\" is returned if the NodeID was set by\n// SetNodeID.\nfunc NodeInterface() string {\n\tdefer nodeMu.Unlock()\n\tnodeMu.Lock()\n\treturn ifname\n}\n\n// SetNodeInterface selects the hardware address to be used for Version 1 UUIDs.\n// If name is \"\" then the first usable interface found will be used or a random\n// Node ID will be generated.  If a named interface cannot be found then false\n// is returned.\n//\n// SetNodeInterface never fails when name is \"\".\nfunc SetNodeInterface(name string) bool {\n\tdefer nodeMu.Unlock()\n\tnodeMu.Lock()\n\treturn setNodeInterface(name)\n}\n\nfunc setNodeInterface(name string) bool {\n\tiname, addr := getHardwareInterface(name) // null implementation for js\n\tif iname != \"\" \u0026\u0026 addr != nil {\n\t\tifname = iname\n\t\tcopy(nodeID[:], addr)\n\t\treturn true\n\t}\n\n\t// We found no interfaces with a valid hardware address.  If name\n\t// does not specify a specific interface generate a random Node ID\n\t// (section 4.1.6)\n\tif name == \"\" {\n\t\tifname = \"random\"\n\t\trandomBits(nodeID[:])\n\t\treturn true\n\t}\n\treturn false\n}\n\n// NodeID returns a slice of a copy of the current Node ID, setting the Node ID\n// if not already set.\nfunc NodeID() []byte {\n\tdefer nodeMu.Unlock()\n\tnodeMu.Lock()\n\tif nodeID == zeroID {\n\t\tsetNodeInterface(\"\")\n\t}\n\tnid := nodeID\n\treturn nid[:]\n}\n\n// SetNodeID sets the Node ID to be used for Version 1 UUIDs.  The first 6 bytes\n// of id are used.  If id is less than 6 bytes then false is returned and the\n// Node ID is not set.\nfunc SetNodeID(id []byte) bool {\n\tif len(id) \u003c 6 {\n\t\treturn false\n\t}\n\tdefer nodeMu.Unlock()\n\tnodeMu.Lock()\n\tcopy(nodeID[:], id)\n\tifname = \"user\"\n\treturn true\n}\n\n// NodeID returns the 6 byte node id encoded in uuid.  It returns nil if uuid is\n// not valid.  The NodeID is only well defined for version 1 and 2 UUIDs.\nfunc (uuid UUID) NodeID() []byte {\n\tvar node [6]byte\n\tcopy(node[:], uuid[10:])\n\treturn node[:]\n}\n",
+        "encoding": "base64"
+    },
+    {
+        "name": "node_js.go",
+        "path": "node_js.go",
+        "sha": "24b78edc90710dbc334143facc76732bc1f8fa6f",
+        "size": 499,
+        "url": "https://api.github.com/repos/google/uuid/contents/node_js.go?ref=master",
+        "html_url": "https://github.com/google/uuid/blob/master/node_js.go",
+        "git_url": "https://api.github.com/repos/google/uuid/git/blobs/24b78edc90710dbc334143facc76732bc1f8fa6f",
+        "download_url": "https://raw.githubusercontent.com/google/uuid/master/node_js.go",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/google/uuid/contents/node_js.go?ref=master",
+            "git": "https://api.github.com/repos/google/uuid/git/blobs/24b78edc90710dbc334143facc76732bc1f8fa6f",
+            "html": "https://github.com/google/uuid/blob/master/node_js.go"
+        },
+        "content": "// Copyright 2017 Google Inc.  All rights reserved.\n// Use of this source code is governed by a BSD-style\n// license that can be found in the LICENSE file.\n\n// +build js\n\npackage uuid\n\n// getHardwareInterface returns nil values for the JS version of the code.\n// This remvoves the \"net\" dependency, because it is not used in the browser.\n// Using the \"net\" library inflates the size of the transpiled JS code by 673k bytes.\nfunc getHardwareInterface(name string) (string, []byte) { return \"\", nil }\n",
+        "encoding": "base64"
+    },
+    {
+        "name": "node_net.go",
+        "path": "node_net.go",
+        "sha": "0cbbcddbd6e81da612534338c786a4e111bc0a04",
+        "size": 949,
+        "url": "https://api.github.com/repos/google/uuid/contents/node_net.go?ref=master",
+        "html_url": "https://github.com/google/uuid/blob/master/node_net.go",
+        "git_url": "https://api.github.com/repos/google/uuid/git/blobs/0cbbcddbd6e81da612534338c786a4e111bc0a04",
+        "download_url": "https://raw.githubusercontent.com/google/uuid/master/node_net.go",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/google/uuid/contents/node_net.go?ref=master",
+            "git": "https://api.github.com/repos/google/uuid/git/blobs/0cbbcddbd6e81da612534338c786a4e111bc0a04",
+            "html": "https://github.com/google/uuid/blob/master/node_net.go"
+        },
+        "content": "// Copyright 2017 Google Inc.  All rights reserved.\n// Use of this source code is governed by a BSD-style\n// license that can be found in the LICENSE file.\n\n// +build !js\n\npackage uuid\n\nimport \"net\"\n\nvar interfaces []net.Interface // cached list of interfaces\n\n// getHardwareInterface returns the name and hardware address of interface name.\n// If name is \"\" then the name and hardware address of one of the system's\n// interfaces is returned.  If no interfaces are found (name does not exist or\n// there are no interfaces) then \"\", nil is returned.\n//\n// Only addresses of at least 6 bytes are returned.\nfunc getHardwareInterface(name string) (string, []byte) {\n\tif interfaces == nil {\n\t\tvar err error\n\t\tinterfaces, err = net.Interfaces()\n\t\tif err != nil {\n\t\t\treturn \"\", nil\n\t\t}\n\t}\n\tfor _, ifs := range interfaces {\n\t\tif len(ifs.HardwareAddr) \u003e= 6 \u0026\u0026 (name == \"\" || name == ifs.Name) {\n\t\t\treturn ifs.Name, ifs.HardwareAddr\n\t\t}\n\t}\n\treturn \"\", nil\n}\n",
+        "encoding": "base64"
+    },
+    {
+        "name": "seq_test.go",
+        "path": "seq_test.go",
+        "sha": "4f6c549125afcb12785baee59058dbb6297729d1",
+        "size": 1443,
+        "url": "https://api.github.com/repos/google/uuid/contents/seq_test.go?ref=master",
+        "html_url": "https://github.com/google/uuid/blob/master/seq_test.go",
+        "git_url": "https://api.github.com/repos/google/uuid/git/blobs/4f6c549125afcb12785baee59058dbb6297729d1",
+        "download_url": "https://raw.githubusercontent.com/google/uuid/master/seq_test.go",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/google/uuid/contents/seq_test.go?ref=master",
+            "git": "https://api.github.com/repos/google/uuid/git/blobs/4f6c549125afcb12785baee59058dbb6297729d1",
+            "html": "https://github.com/google/uuid/blob/master/seq_test.go"
+        },
+        "content": "// Copyright 2016 Google Inc.  All rights reserved.\n// Use of this source code is governed by a BSD-style\n// license that can be found in the LICENSE file.\n\npackage uuid\n\nimport (\n\t\"flag\"\n\t\"runtime\"\n\t\"testing\"\n\t\"time\"\n)\n\n// This test is only run when --regressions is passed on the go test line.\nvar regressions = flag.Bool(\"regressions\", false, \"run uuid regression tests\")\n\n// TestClockSeqRace tests for a particular race condition of returning two\n// identical Version1 UUIDs.  The duration of 1 minute was chosen as the race\n// condition, before being fixed, nearly always occurred in under 30 seconds.\nfunc TestClockSeqRace(t *testing.T) {\n\tif !*regressions {\n\t\tt.Skip(\"skipping regression tests\")\n\t}\n\tduration := time.Minute\n\n\tdone := make(chan struct{})\n\tdefer close(done)\n\n\tch := make(chan UUID, 10000)\n\tncpu := runtime.NumCPU()\n\tswitch ncpu {\n\tcase 0, 1:\n\t\t// We can't run the test effectively.\n\t\tt.Skip(\"skipping race test, only one CPU detected\")\n\t\treturn\n\tdefault:\n\t\truntime.GOMAXPROCS(ncpu)\n\t}\n\tfor i := 0; i \u003c ncpu; i++ {\n\t\tgo func() {\n\t\t\tfor {\n\t\t\t\tselect {\n\t\t\t\tcase \u003c-done:\n\t\t\t\t\treturn\n\t\t\t\tcase ch \u003c- Must(NewUUID()):\n\t\t\t\t}\n\t\t\t}\n\t\t}()\n\t}\n\n\tuuids := make(map[string]bool)\n\tcnt := 0\n\tstart := time.Now()\n\tfor u := range ch {\n\t\ts := u.String()\n\t\tif uuids[s] {\n\t\t\tt.Errorf(\"duplicate uuid after %d in %v: %s\", cnt, time.Since(start), s)\n\t\t\treturn\n\t\t}\n\t\tuuids[s] = true\n\t\tif time.Since(start) \u003e duration {\n\t\t\treturn\n\t\t}\n\t\tcnt++\n\t}\n}\n",
+        "encoding": "base64"
+    },
+    {
+        "name": "sql.go",
+        "path": "sql.go",
+        "sha": "f326b54db37a664af48c29e9643d2080a5752615",
+        "size": 1458,
+        "url": "https://api.github.com/repos/google/uuid/contents/sql.go?ref=master",
+        "html_url": "https://github.com/google/uuid/blob/master/sql.go",
+        "git_url": "https://api.github.com/repos/google/uuid/git/blobs/f326b54db37a664af48c29e9643d2080a5752615",
+        "download_url": "https://raw.githubusercontent.com/google/uuid/master/sql.go",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/google/uuid/contents/sql.go?ref=master",
+            "git": "https://api.github.com/repos/google/uuid/git/blobs/f326b54db37a664af48c29e9643d2080a5752615",
+            "html": "https://github.com/google/uuid/blob/master/sql.go"
+        },
+        "content": "// Copyright 2016 Google Inc.  All rights reserved.\n// Use of this source code is governed by a BSD-style\n// license that can be found in the LICENSE file.\n\npackage uuid\n\nimport (\n\t\"database/sql/driver\"\n\t\"fmt\"\n)\n\n// Scan implements sql.Scanner so UUIDs can be read from databases transparently\n// Currently, database types that map to string and []byte are supported. Please\n// consult database-specific driver documentation for matching types.\nfunc (uuid *UUID) Scan(src interface{}) error {\n\tswitch src := src.(type) {\n\tcase nil:\n\t\treturn nil\n\n\tcase string:\n\t\t// if an empty UUID comes from a table, we return a null UUID\n\t\tif src == \"\" {\n\t\t\treturn nil\n\t\t}\n\n\t\t// see Parse for required string format\n\t\tu, err := Parse(src)\n\t\tif err != nil {\n\t\t\treturn fmt.Errorf(\"Scan: %v\", err)\n\t\t}\n\n\t\t*uuid = u\n\n\tcase []byte:\n\t\t// if an empty UUID comes from a table, we return a null UUID\n\t\tif len(src) == 0 {\n\t\t\treturn nil\n\t\t}\n\n\t\t// assumes a simple slice of bytes if 16 bytes\n\t\t// otherwise attempts to parse\n\t\tif len(src) != 16 {\n\t\t\treturn uuid.Scan(string(src))\n\t\t}\n\t\tcopy((*uuid)[:], src)\n\n\tdefault:\n\t\treturn fmt.Errorf(\"Scan: unable to scan type %T into UUID\", src)\n\t}\n\n\treturn nil\n}\n\n// Value implements sql.Valuer so that UUIDs can be written to databases\n// transparently. Currently, UUIDs map to strings. Please consult\n// database-specific driver documentation for matching types.\nfunc (uuid UUID) Value() (driver.Value, error) {\n\treturn uuid.String(), nil\n}\n",
+        "encoding": "base64"
+    },
+    {
+        "name": "sql_test.go",
+        "path": "sql_test.go",
+        "sha": "1803dfd879f8204ca11d5e82de1e4179e8b1dad0",
+        "size": 2376,
+        "url": "https://api.github.com/repos/google/uuid/contents/sql_test.go?ref=master",
+        "html_url": "https://github.com/google/uuid/blob/master/sql_test.go",
+        "git_url": "https://api.github.com/repos/google/uuid/git/blobs/1803dfd879f8204ca11d5e82de1e4179e8b1dad0",
+        "download_url": "https://raw.githubusercontent.com/google/uuid/master/sql_test.go",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/google/uuid/contents/sql_test.go?ref=master",
+            "git": "https://api.github.com/repos/google/uuid/git/blobs/1803dfd879f8204ca11d5e82de1e4179e8b1dad0",
+            "html": "https://github.com/google/uuid/blob/master/sql_test.go"
+        },
+        "content": "// Copyright 2016 Google Inc.  All rights reserved.\n// Use of this source code is governed by a BSD-style\n// license that can be found in the LICENSE file.\n\npackage uuid\n\nimport (\n\t\"strings\"\n\t\"testing\"\n)\n\nfunc TestScan(t *testing.T) {\n\tstringTest := \"f47ac10b-58cc-0372-8567-0e02b2c3d479\"\n\tbadTypeTest := 6\n\tinvalidTest := \"f47ac10b-58cc-0372-8567-0e02b2c3d4\"\n\n\tbyteTest := make([]byte, 16)\n\tbyteTestUUID := Must(Parse(stringTest))\n\tcopy(byteTest, byteTestUUID[:])\n\n\t// sunny day tests\n\n\tvar uuid UUID\n\terr := (\u0026uuid).Scan(stringTest)\n\tif err != nil {\n\t\tt.Fatal(err)\n\t}\n\n\terr = (\u0026uuid).Scan([]byte(stringTest))\n\tif err != nil {\n\t\tt.Fatal(err)\n\t}\n\n\terr = (\u0026uuid).Scan(byteTest)\n\tif err != nil {\n\t\tt.Fatal(err)\n\t}\n\n\t// bad type tests\n\n\terr = (\u0026uuid).Scan(badTypeTest)\n\tif err == nil {\n\t\tt.Error(\"int correctly parsed and shouldn't have\")\n\t}\n\tif !strings.Contains(err.Error(), \"unable to scan type\") {\n\t\tt.Error(\"attempting to parse an int returned an incorrect error message\")\n\t}\n\n\t// invalid/incomplete uuids\n\n\terr = (\u0026uuid).Scan(invalidTest)\n\tif err == nil {\n\t\tt.Error(\"invalid uuid was parsed without error\")\n\t}\n\tif !strings.Contains(err.Error(), \"invalid UUID\") {\n\t\tt.Error(\"attempting to parse an invalid UUID returned an incorrect error message\")\n\t}\n\n\terr = (\u0026uuid).Scan(byteTest[:len(byteTest)-2])\n\tif err == nil {\n\t\tt.Error(\"invalid byte uuid was parsed without error\")\n\t}\n\tif !strings.Contains(err.Error(), \"invalid UUID\") {\n\t\tt.Error(\"attempting to parse an invalid byte UUID returned an incorrect error message\")\n\t}\n\n\t// empty tests\n\n\tuuid = UUID{}\n\tvar emptySlice []byte\n\terr = (\u0026uuid).Scan(emptySlice)\n\tif err != nil {\n\t\tt.Fatal(err)\n\t}\n\n\tfor _, v := range uuid {\n\t\tif v != 0 {\n\t\t\tt.Error(\"UUID was not nil after scanning empty byte slice\")\n\t\t}\n\t}\n\n\tuuid = UUID{}\n\tvar emptyString string\n\terr = (\u0026uuid).Scan(emptyString)\n\tif err != nil {\n\t\tt.Fatal(err)\n\t}\n\tfor _, v := range uuid {\n\t\tif v != 0 {\n\t\t\tt.Error(\"UUID was not nil after scanning empty byte slice\")\n\t\t}\n\t}\n\n\tuuid = UUID{}\n\terr = (\u0026uuid).Scan(nil)\n\tif err != nil {\n\t\tt.Fatal(err)\n\t}\n\tfor _, v := range uuid {\n\t\tif v != 0 {\n\t\t\tt.Error(\"UUID was not nil after scanning nil\")\n\t\t}\n\t}\n}\n\nfunc TestValue(t *testing.T) {\n\tstringTest := \"f47ac10b-58cc-0372-8567-0e02b2c3d479\"\n\tuuid := Must(Parse(stringTest))\n\tval, _ := uuid.Value()\n\tif val != stringTest {\n\t\tt.Error(\"Value() did not return expected string\")\n\t}\n}\n",
+        "encoding": "base64"
+    },
+    {
+        "name": "time.go",
+        "path": "time.go",
+        "sha": "e6ef06cdc87aab2c0f71612088cd9b05c4552360",
+        "size": 3509,
+        "url": "https://api.github.com/repos/google/uuid/contents/time.go?ref=master",
+        "html_url": "https://github.com/google/uuid/blob/master/time.go",
+        "git_url": "https://api.github.com/repos/google/uuid/git/blobs/e6ef06cdc87aab2c0f71612088cd9b05c4552360",
+        "download_url": "https://raw.githubusercontent.com/google/uuid/master/time.go",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/google/uuid/contents/time.go?ref=master",
+            "git": "https://api.github.com/repos/google/uuid/git/blobs/e6ef06cdc87aab2c0f71612088cd9b05c4552360",
+            "html": "https://github.com/google/uuid/blob/master/time.go"
+        },
+        "content": "// Copyright 2016 Google Inc.  All rights reserved.\n// Use of this source code is governed by a BSD-style\n// license that can be found in the LICENSE file.\n\npackage uuid\n\nimport (\n\t\"encoding/binary\"\n\t\"sync\"\n\t\"time\"\n)\n\n// A Time represents a time as the number of 100's of nanoseconds since 15 Oct\n// 1582.\ntype Time int64\n\nconst (\n\tlillian    = 2299160          // Julian day of 15 Oct 1582\n\tunix       = 2440587          // Julian day of 1 Jan 1970\n\tepoch      = unix - lillian   // Days between epochs\n\tg1582      = epoch * 86400    // seconds between epochs\n\tg1582ns100 = g1582 * 10000000 // 100s of a nanoseconds between epochs\n)\n\nvar (\n\ttimeMu   sync.Mutex\n\tlasttime uint64 // last time we returned\n\tclockSeq uint16 // clock sequence for this run\n\n\ttimeNow = time.Now // for testing\n)\n\n// UnixTime converts t the number of seconds and nanoseconds using the Unix\n// epoch of 1 Jan 1970.\nfunc (t Time) UnixTime() (sec, nsec int64) {\n\tsec = int64(t - g1582ns100)\n\tnsec = (sec % 10000000) * 100\n\tsec /= 10000000\n\treturn sec, nsec\n}\n\n// GetTime returns the current Time (100s of nanoseconds since 15 Oct 1582) and\n// clock sequence as well as adjusting the clock sequence as needed.  An error\n// is returned if the current time cannot be determined.\nfunc GetTime() (Time, uint16, error) {\n\tdefer timeMu.Unlock()\n\ttimeMu.Lock()\n\treturn getTime()\n}\n\nfunc getTime() (Time, uint16, error) {\n\tt := timeNow()\n\n\t// If we don't have a clock sequence already, set one.\n\tif clockSeq == 0 {\n\t\tsetClockSequence(-1)\n\t}\n\tnow := uint64(t.UnixNano()/100) + g1582ns100\n\n\t// If time has gone backwards with this clock sequence then we\n\t// increment the clock sequence\n\tif now \u003c= lasttime {\n\t\tclockSeq = ((clockSeq + 1) \u0026 0x3fff) | 0x8000\n\t}\n\tlasttime = now\n\treturn Time(now), clockSeq, nil\n}\n\n// ClockSequence returns the current clock sequence, generating one if not\n// already set.  The clock sequence is only used for Version 1 UUIDs.\n//\n// The uuid package does not use global static storage for the clock sequence or\n// the last time a UUID was generated.  Unless SetClockSequence is used, a new\n// random clock sequence is generated the first time a clock sequence is\n// requested by ClockSequence, GetTime, or NewUUID.  (section 4.2.1.1)\nfunc ClockSequence() int {\n\tdefer timeMu.Unlock()\n\ttimeMu.Lock()\n\treturn clockSequence()\n}\n\nfunc clockSequence() int {\n\tif clockSeq == 0 {\n\t\tsetClockSequence(-1)\n\t}\n\treturn int(clockSeq \u0026 0x3fff)\n}\n\n// SetClockSequence sets the clock sequence to the lower 14 bits of seq.  Setting to\n// -1 causes a new sequence to be generated.\nfunc SetClockSequence(seq int) {\n\tdefer timeMu.Unlock()\n\ttimeMu.Lock()\n\tsetClockSequence(seq)\n}\n\nfunc setClockSequence(seq int) {\n\tif seq == -1 {\n\t\tvar b [2]byte\n\t\trandomBits(b[:]) // clock sequence\n\t\tseq = int(b[0])\u003c\u003c8 | int(b[1])\n\t}\n\toldSeq := clockSeq\n\tclockSeq = uint16(seq\u00260x3fff) | 0x8000 // Set our variant\n\tif oldSeq != clockSeq {\n\t\tlasttime = 0\n\t}\n}\n\n// Time returns the time in 100s of nanoseconds since 15 Oct 1582 encoded in\n// uuid.  The time is only defined for version 1 and 2 UUIDs.\nfunc (uuid UUID) Time() Time {\n\ttime := int64(binary.BigEndian.Uint32(uuid[0:4]))\n\ttime |= int64(binary.BigEndian.Uint16(uuid[4:6])) \u003c\u003c 32\n\ttime |= int64(binary.BigEndian.Uint16(uuid[6:8])\u00260xfff) \u003c\u003c 48\n\treturn Time(time)\n}\n\n// ClockSequence returns the clock sequence encoded in uuid.\n// The clock sequence is only well defined for version 1 and 2 UUIDs.\nfunc (uuid UUID) ClockSequence() int {\n\treturn int(binary.BigEndian.Uint16(uuid[8:10])) \u0026 0x3fff\n}\n",
+        "encoding": "base64"
+    },
+    {
+        "name": "util.go",
+        "path": "util.go",
+        "sha": "5ea6c737806e68a6d0457e65d97bb3414cb22953",
+        "size": 1920,
+        "url": "https://api.github.com/repos/google/uuid/contents/util.go?ref=master",
+        "html_url": "https://github.com/google/uuid/blob/master/util.go",
+        "git_url": "https://api.github.com/repos/google/uuid/git/blobs/5ea6c737806e68a6d0457e65d97bb3414cb22953",
+        "download_url": "https://raw.githubusercontent.com/google/uuid/master/util.go",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/google/uuid/contents/util.go?ref=master",
+            "git": "https://api.github.com/repos/google/uuid/git/blobs/5ea6c737806e68a6d0457e65d97bb3414cb22953",
+            "html": "https://github.com/google/uuid/blob/master/util.go"
+        },
+        "content": "// Copyright 2016 Google Inc.  All rights reserved.\n// Use of this source code is governed by a BSD-style\n// license that can be found in the LICENSE file.\n\npackage uuid\n\nimport (\n\t\"io\"\n)\n\n// randomBits completely fills slice b with random data.\nfunc randomBits(b []byte) {\n\tif _, err := io.ReadFull(rander, b); err != nil {\n\t\tpanic(err.Error()) // rand should never fail\n\t}\n}\n\n// xvalues returns the value of a byte as a hexadecimal digit or 255.\nvar xvalues = [256]byte{\n\t255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255,\n\t255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255,\n\t255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255,\n\t0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 255, 255, 255, 255, 255, 255,\n\t255, 10, 11, 12, 13, 14, 15, 255, 255, 255, 255, 255, 255, 255, 255, 255,\n\t255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255,\n\t255, 10, 11, 12, 13, 14, 15, 255, 255, 255, 255, 255, 255, 255, 255, 255,\n\t255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255,\n\t255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255,\n\t255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255,\n\t255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255,\n\t255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255,\n\t255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255,\n\t255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255,\n\t255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255,\n\t255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255,\n}\n\n// xtob converts hex characters x1 and x2 into a byte.\nfunc xtob(x1, x2 byte) (byte, bool) {\n\tb1 := xvalues[x1]\n\tb2 := xvalues[x2]\n\treturn (b1 \u003c\u003c 4) | b2, b1 != 255 \u0026\u0026 b2 != 255\n}\n",
+        "encoding": "base64"
+    },
+    {
+        "name": "uuid.go",
+        "path": "uuid.go",
+        "sha": "524404cc5227b07ce97fe5a0062b5f20af86bf91",
+        "size": 6147,
+        "url": "https://api.github.com/repos/google/uuid/contents/uuid.go?ref=master",
+        "html_url": "https://github.com/google/uuid/blob/master/uuid.go",
+        "git_url": "https://api.github.com/repos/google/uuid/git/blobs/524404cc5227b07ce97fe5a0062b5f20af86bf91",
+        "download_url": "https://raw.githubusercontent.com/google/uuid/master/uuid.go",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/google/uuid/contents/uuid.go?ref=master",
+            "git": "https://api.github.com/repos/google/uuid/git/blobs/524404cc5227b07ce97fe5a0062b5f20af86bf91",
+            "html": "https://github.com/google/uuid/blob/master/uuid.go"
+        },
+        "content": "// Copyright 2018 Google Inc.  All rights reserved.\n// Use of this source code is governed by a BSD-style\n// license that can be found in the LICENSE file.\n\npackage uuid\n\nimport (\n\t\"bytes\"\n\t\"crypto/rand\"\n\t\"encoding/hex\"\n\t\"errors\"\n\t\"fmt\"\n\t\"io\"\n\t\"strings\"\n)\n\n// A UUID is a 128 bit (16 byte) Universal Unique IDentifier as defined in RFC\n// 4122.\ntype UUID [16]byte\n\n// A Version represents a UUID's version.\ntype Version byte\n\n// A Variant represents a UUID's variant.\ntype Variant byte\n\n// Constants returned by Variant.\nconst (\n\tInvalid   = Variant(iota) // Invalid UUID\n\tRFC4122                   // The variant specified in RFC4122\n\tReserved                  // Reserved, NCS backward compatibility.\n\tMicrosoft                 // Reserved, Microsoft Corporation backward compatibility.\n\tFuture                    // Reserved for future definition.\n)\n\nvar rander = rand.Reader // random function\n\n// Parse decodes s into a UUID or returns an error.  Both the standard UUID\n// forms of xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx and\n// urn:uuid:xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx are decoded as well as the\n// Microsoft encoding {xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx} and the raw hex\n// encoding: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.\nfunc Parse(s string) (UUID, error) {\n\tvar uuid UUID\n\tswitch len(s) {\n\t// xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx\n\tcase 36:\n\n\t// urn:uuid:xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx\n\tcase 36 + 9:\n\t\tif strings.ToLower(s[:9]) != \"urn:uuid:\" {\n\t\t\treturn uuid, fmt.Errorf(\"invalid urn prefix: %q\", s[:9])\n\t\t}\n\t\ts = s[9:]\n\n\t// {xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}\n\tcase 36 + 2:\n\t\ts = s[1:]\n\n\t// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\n\tcase 32:\n\t\tvar ok bool\n\t\tfor i := range uuid {\n\t\t\tuuid[i], ok = xtob(s[i*2], s[i*2+1])\n\t\t\tif !ok {\n\t\t\t\treturn uuid, errors.New(\"invalid UUID format\")\n\t\t\t}\n\t\t}\n\t\treturn uuid, nil\n\tdefault:\n\t\treturn uuid, fmt.Errorf(\"invalid UUID length: %d\", len(s))\n\t}\n\t// s is now at least 36 bytes long\n\t// it must be of the form  xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx\n\tif s[8] != '-' || s[13] != '-' || s[18] != '-' || s[23] != '-' {\n\t\treturn uuid, errors.New(\"invalid UUID format\")\n\t}\n\tfor i, x := range [16]int{\n\t\t0, 2, 4, 6,\n\t\t9, 11,\n\t\t14, 16,\n\t\t19, 21,\n\t\t24, 26, 28, 30, 32, 34} {\n\t\tv, ok := xtob(s[x], s[x+1])\n\t\tif !ok {\n\t\t\treturn uuid, errors.New(\"invalid UUID format\")\n\t\t}\n\t\tuuid[i] = v\n\t}\n\treturn uuid, nil\n}\n\n// ParseBytes is like Parse, except it parses a byte slice instead of a string.\nfunc ParseBytes(b []byte) (UUID, error) {\n\tvar uuid UUID\n\tswitch len(b) {\n\tcase 36: // xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx\n\tcase 36 + 9: // urn:uuid:xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx\n\t\tif !bytes.Equal(bytes.ToLower(b[:9]), []byte(\"urn:uuid:\")) {\n\t\t\treturn uuid, fmt.Errorf(\"invalid urn prefix: %q\", b[:9])\n\t\t}\n\t\tb = b[9:]\n\tcase 36 + 2: // {xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}\n\t\tb = b[1:]\n\tcase 32: // xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\n\t\tvar ok bool\n\t\tfor i := 0; i \u003c 32; i += 2 {\n\t\t\tuuid[i/2], ok = xtob(b[i], b[i+1])\n\t\t\tif !ok {\n\t\t\t\treturn uuid, errors.New(\"invalid UUID format\")\n\t\t\t}\n\t\t}\n\t\treturn uuid, nil\n\tdefault:\n\t\treturn uuid, fmt.Errorf(\"invalid UUID length: %d\", len(b))\n\t}\n\t// s is now at least 36 bytes long\n\t// it must be of the form  xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx\n\tif b[8] != '-' || b[13] != '-' || b[18] != '-' || b[23] != '-' {\n\t\treturn uuid, errors.New(\"invalid UUID format\")\n\t}\n\tfor i, x := range [16]int{\n\t\t0, 2, 4, 6,\n\t\t9, 11,\n\t\t14, 16,\n\t\t19, 21,\n\t\t24, 26, 28, 30, 32, 34} {\n\t\tv, ok := xtob(b[x], b[x+1])\n\t\tif !ok {\n\t\t\treturn uuid, errors.New(\"invalid UUID format\")\n\t\t}\n\t\tuuid[i] = v\n\t}\n\treturn uuid, nil\n}\n\n// MustParse is like Parse but panics if the string cannot be parsed.\n// It simplifies safe initialization of global variables holding compiled UUIDs.\nfunc MustParse(s string) UUID {\n\tuuid, err := Parse(s)\n\tif err != nil {\n\t\tpanic(`uuid: Parse(` + s + `): ` + err.Error())\n\t}\n\treturn uuid\n}\n\n// FromBytes creates a new UUID from a byte slice. Returns an error if the slice\n// does not have a length of 16. The bytes are copied from the slice.\nfunc FromBytes(b []byte) (uuid UUID, err error) {\n\terr = uuid.UnmarshalBinary(b)\n\treturn uuid, err\n}\n\n// Must returns uuid if err is nil and panics otherwise.\nfunc Must(uuid UUID, err error) UUID {\n\tif err != nil {\n\t\tpanic(err)\n\t}\n\treturn uuid\n}\n\n// String returns the string form of uuid, xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx\n// , or \"\" if uuid is invalid.\nfunc (uuid UUID) String() string {\n\tvar buf [36]byte\n\tencodeHex(buf[:], uuid)\n\treturn string(buf[:])\n}\n\n// URN returns the RFC 2141 URN form of uuid,\n// urn:uuid:xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx,  or \"\" if uuid is invalid.\nfunc (uuid UUID) URN() string {\n\tvar buf [36 + 9]byte\n\tcopy(buf[:], \"urn:uuid:\")\n\tencodeHex(buf[9:], uuid)\n\treturn string(buf[:])\n}\n\nfunc encodeHex(dst []byte, uuid UUID) {\n\thex.Encode(dst, uuid[:4])\n\tdst[8] = '-'\n\thex.Encode(dst[9:13], uuid[4:6])\n\tdst[13] = '-'\n\thex.Encode(dst[14:18], uuid[6:8])\n\tdst[18] = '-'\n\thex.Encode(dst[19:23], uuid[8:10])\n\tdst[23] = '-'\n\thex.Encode(dst[24:], uuid[10:])\n}\n\n// Variant returns the variant encoded in uuid.\nfunc (uuid UUID) Variant() Variant {\n\tswitch {\n\tcase (uuid[8] \u0026 0xc0) == 0x80:\n\t\treturn RFC4122\n\tcase (uuid[8] \u0026 0xe0) == 0xc0:\n\t\treturn Microsoft\n\tcase (uuid[8] \u0026 0xe0) == 0xe0:\n\t\treturn Future\n\tdefault:\n\t\treturn Reserved\n\t}\n}\n\n// Version returns the version of uuid.\nfunc (uuid UUID) Version() Version {\n\treturn Version(uuid[6] \u003e\u003e 4)\n}\n\nfunc (v Version) String() string {\n\tif v \u003e 15 {\n\t\treturn fmt.Sprintf(\"BAD_VERSION_%d\", v)\n\t}\n\treturn fmt.Sprintf(\"VERSION_%d\", v)\n}\n\nfunc (v Variant) String() string {\n\tswitch v {\n\tcase RFC4122:\n\t\treturn \"RFC4122\"\n\tcase Reserved:\n\t\treturn \"Reserved\"\n\tcase Microsoft:\n\t\treturn \"Microsoft\"\n\tcase Future:\n\t\treturn \"Future\"\n\tcase Invalid:\n\t\treturn \"Invalid\"\n\t}\n\treturn fmt.Sprintf(\"BadVariant%d\", int(v))\n}\n\n// SetRand sets the random number generator to r, which implements io.Reader.\n// If r.Read returns an error when the package requests random data then\n// a panic will be issued.\n//\n// Calling SetRand with nil sets the random number generator to the default\n// generator.\nfunc SetRand(r io.Reader) {\n\tif r == nil {\n\t\trander = rand.Reader\n\t\treturn\n\t}\n\trander = r\n}\n",
+        "encoding": "base64"
+    },
+    {
+        "name": "uuid_test.go",
+        "path": "uuid_test.go",
+        "sha": "4e04e7cc5e4d64765e53f858dae20ad89f0aace0",
+        "size": 15401,
+        "url": "https://api.github.com/repos/google/uuid/contents/uuid_test.go?ref=master",
+        "html_url": "https://github.com/google/uuid/blob/master/uuid_test.go",
+        "git_url": "https://api.github.com/repos/google/uuid/git/blobs/4e04e7cc5e4d64765e53f858dae20ad89f0aace0",
+        "download_url": "https://raw.githubusercontent.com/google/uuid/master/uuid_test.go",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/google/uuid/contents/uuid_test.go?ref=master",
+            "git": "https://api.github.com/repos/google/uuid/git/blobs/4e04e7cc5e4d64765e53f858dae20ad89f0aace0",
+            "html": "https://github.com/google/uuid/blob/master/uuid_test.go"
+        },
+        "content": "// Copyright 2016 Google Inc.  All rights reserved.\n// Use of this source code is governed by a BSD-style\n// license that can be found in the LICENSE file.\n\npackage uuid\n\nimport (\n\t\"bytes\"\n\t\"fmt\"\n\t\"os\"\n\t\"runtime\"\n\t\"strings\"\n\t\"testing\"\n\t\"time\"\n\t\"unsafe\"\n)\n\ntype test struct {\n\tin      string\n\tversion Version\n\tvariant Variant\n\tisuuid  bool\n}\n\nvar tests = []test{\n\t{\"f47ac10b-58cc-0372-8567-0e02b2c3d479\", 0, RFC4122, true},\n\t{\"f47ac10b-58cc-1372-8567-0e02b2c3d479\", 1, RFC4122, true},\n\t{\"f47ac10b-58cc-2372-8567-0e02b2c3d479\", 2, RFC4122, true},\n\t{\"f47ac10b-58cc-3372-8567-0e02b2c3d479\", 3, RFC4122, true},\n\t{\"f47ac10b-58cc-4372-8567-0e02b2c3d479\", 4, RFC4122, true},\n\t{\"f47ac10b-58cc-5372-8567-0e02b2c3d479\", 5, RFC4122, true},\n\t{\"f47ac10b-58cc-6372-8567-0e02b2c3d479\", 6, RFC4122, true},\n\t{\"f47ac10b-58cc-7372-8567-0e02b2c3d479\", 7, RFC4122, true},\n\t{\"f47ac10b-58cc-8372-8567-0e02b2c3d479\", 8, RFC4122, true},\n\t{\"f47ac10b-58cc-9372-8567-0e02b2c3d479\", 9, RFC4122, true},\n\t{\"f47ac10b-58cc-a372-8567-0e02b2c3d479\", 10, RFC4122, true},\n\t{\"f47ac10b-58cc-b372-8567-0e02b2c3d479\", 11, RFC4122, true},\n\t{\"f47ac10b-58cc-c372-8567-0e02b2c3d479\", 12, RFC4122, true},\n\t{\"f47ac10b-58cc-d372-8567-0e02b2c3d479\", 13, RFC4122, true},\n\t{\"f47ac10b-58cc-e372-8567-0e02b2c3d479\", 14, RFC4122, true},\n\t{\"f47ac10b-58cc-f372-8567-0e02b2c3d479\", 15, RFC4122, true},\n\n\t{\"urn:uuid:f47ac10b-58cc-4372-0567-0e02b2c3d479\", 4, Reserved, true},\n\t{\"URN:UUID:f47ac10b-58cc-4372-0567-0e02b2c3d479\", 4, Reserved, true},\n\t{\"f47ac10b-58cc-4372-0567-0e02b2c3d479\", 4, Reserved, true},\n\t{\"f47ac10b-58cc-4372-1567-0e02b2c3d479\", 4, Reserved, true},\n\t{\"f47ac10b-58cc-4372-2567-0e02b2c3d479\", 4, Reserved, true},\n\t{\"f47ac10b-58cc-4372-3567-0e02b2c3d479\", 4, Reserved, true},\n\t{\"f47ac10b-58cc-4372-4567-0e02b2c3d479\", 4, Reserved, true},\n\t{\"f47ac10b-58cc-4372-5567-0e02b2c3d479\", 4, Reserved, true},\n\t{\"f47ac10b-58cc-4372-6567-0e02b2c3d479\", 4, Reserved, true},\n\t{\"f47ac10b-58cc-4372-7567-0e02b2c3d479\", 4, Reserved, true},\n\t{\"f47ac10b-58cc-4372-8567-0e02b2c3d479\", 4, RFC4122, true},\n\t{\"f47ac10b-58cc-4372-9567-0e02b2c3d479\", 4, RFC4122, true},\n\t{\"f47ac10b-58cc-4372-a567-0e02b2c3d479\", 4, RFC4122, true},\n\t{\"f47ac10b-58cc-4372-b567-0e02b2c3d479\", 4, RFC4122, true},\n\t{\"f47ac10b-58cc-4372-c567-0e02b2c3d479\", 4, Microsoft, true},\n\t{\"f47ac10b-58cc-4372-d567-0e02b2c3d479\", 4, Microsoft, true},\n\t{\"f47ac10b-58cc-4372-e567-0e02b2c3d479\", 4, Future, true},\n\t{\"f47ac10b-58cc-4372-f567-0e02b2c3d479\", 4, Future, true},\n\n\t{\"f47ac10b158cc-5372-a567-0e02b2c3d479\", 0, Invalid, false},\n\t{\"f47ac10b-58cc25372-a567-0e02b2c3d479\", 0, Invalid, false},\n\t{\"f47ac10b-58cc-53723a567-0e02b2c3d479\", 0, Invalid, false},\n\t{\"f47ac10b-58cc-5372-a56740e02b2c3d479\", 0, Invalid, false},\n\t{\"f47ac10b-58cc-5372-a567-0e02-2c3d479\", 0, Invalid, false},\n\t{\"g47ac10b-58cc-4372-a567-0e02b2c3d479\", 0, Invalid, false},\n\n\t{\"{f47ac10b-58cc-0372-8567-0e02b2c3d479}\", 0, RFC4122, true},\n\t{\"{f47ac10b-58cc-0372-8567-0e02b2c3d479\", 0, Invalid, false},\n\t{\"f47ac10b-58cc-0372-8567-0e02b2c3d479}\", 0, Invalid, false},\n\n\t{\"f47ac10b58cc037285670e02b2c3d479\", 0, RFC4122, true},\n\t{\"f47ac10b58cc037285670e02b2c3d4790\", 0, Invalid, false},\n\t{\"f47ac10b58cc037285670e02b2c3d47\", 0, Invalid, false},\n}\n\nvar constants = []struct {\n\tc    interface{}\n\tname string\n}{\n\t{Person, \"Person\"},\n\t{Group, \"Group\"},\n\t{Org, \"Org\"},\n\t{Invalid, \"Invalid\"},\n\t{RFC4122, \"RFC4122\"},\n\t{Reserved, \"Reserved\"},\n\t{Microsoft, \"Microsoft\"},\n\t{Future, \"Future\"},\n\t{Domain(17), \"Domain17\"},\n\t{Variant(42), \"BadVariant42\"},\n}\n\nfunc testTest(t *testing.T, in string, tt test) {\n\tuuid, err := Parse(in)\n\tif ok := (err == nil); ok != tt.isuuid {\n\t\tt.Errorf(\"Parse(%s) got %v expected %v\\b\", in, ok, tt.isuuid)\n\t}\n\tif err != nil {\n\t\treturn\n\t}\n\n\tif v := uuid.Variant(); v != tt.variant {\n\t\tt.Errorf(\"Variant(%s) got %d expected %d\\b\", in, v, tt.variant)\n\t}\n\tif v := uuid.Version(); v != tt.version {\n\t\tt.Errorf(\"Version(%s) got %d expected %d\\b\", in, v, tt.version)\n\t}\n}\n\nfunc testBytes(t *testing.T, in []byte, tt test) {\n\tuuid, err := ParseBytes(in)\n\tif ok := (err == nil); ok != tt.isuuid {\n\t\tt.Errorf(\"ParseBytes(%s) got %v expected %v\\b\", in, ok, tt.isuuid)\n\t}\n\tif err != nil {\n\t\treturn\n\t}\n\tsuuid, _ := Parse(string(in))\n\tif uuid != suuid {\n\t\tt.Errorf(\"ParseBytes(%s) got %v expected %v\\b\", in, uuid, suuid)\n\t}\n}\n\nfunc TestUUID(t *testing.T) {\n\tfor _, tt := range tests {\n\t\ttestTest(t, tt.in, tt)\n\t\ttestTest(t, strings.ToUpper(tt.in), tt)\n\t\ttestBytes(t, []byte(tt.in), tt)\n\t}\n}\n\nfunc TestFromBytes(t *testing.T) {\n\tb := []byte{\n\t\t0x7d, 0x44, 0x48, 0x40,\n\t\t0x9d, 0xc0,\n\t\t0x11, 0xd1,\n\t\t0xb2, 0x45,\n\t\t0x5f, 0xfd, 0xce, 0x74, 0xfa, 0xd2,\n\t}\n\tuuid, err := FromBytes(b)\n\tif err != nil {\n\t\tt.Fatalf(\"%s\", err)\n\t}\n\tfor i := 0; i \u003c len(uuid); i++ {\n\t\tif b[i] != uuid[i] {\n\t\t\tt.Fatalf(\"FromBytes() got %v expected %v\\b\", uuid[:], b)\n\t\t}\n\t}\n}\n\nfunc TestConstants(t *testing.T) {\n\tfor x, tt := range constants {\n\t\tv, ok := tt.c.(fmt.Stringer)\n\t\tif !ok {\n\t\t\tt.Errorf(\"%x: %v: not a stringer\", x, v)\n\t\t} else if s := v.String(); s != tt.name {\n\t\t\tv, _ := tt.c.(int)\n\t\t\tt.Errorf(\"%x: Constant %T:%d gives %q, expected %q\", x, tt.c, v, s, tt.name)\n\t\t}\n\t}\n}\n\nfunc TestRandomUUID(t *testing.T) {\n\tm := make(map[string]bool)\n\tfor x := 1; x \u003c 32; x++ {\n\t\tuuid := New()\n\t\ts := uuid.String()\n\t\tif m[s] {\n\t\t\tt.Errorf(\"NewRandom returned duplicated UUID %s\", s)\n\t\t}\n\t\tm[s] = true\n\t\tif v := uuid.Version(); v != 4 {\n\t\t\tt.Errorf(\"Random UUID of version %s\", v)\n\t\t}\n\t\tif uuid.Variant() != RFC4122 {\n\t\t\tt.Errorf(\"Random UUID is variant %d\", uuid.Variant())\n\t\t}\n\t}\n}\n\nfunc TestNew(t *testing.T) {\n\tm := make(map[UUID]bool)\n\tfor x := 1; x \u003c 32; x++ {\n\t\ts := New()\n\t\tif m[s] {\n\t\t\tt.Errorf(\"New returned duplicated UUID %s\", s)\n\t\t}\n\t\tm[s] = true\n\t\tuuid, err := Parse(s.String())\n\t\tif err != nil {\n\t\t\tt.Errorf(\"New.String() returned %q which does not decode\", s)\n\t\t\tcontinue\n\t\t}\n\t\tif v := uuid.Version(); v != 4 {\n\t\t\tt.Errorf(\"Random UUID of version %s\", v)\n\t\t}\n\t\tif uuid.Variant() != RFC4122 {\n\t\t\tt.Errorf(\"Random UUID is variant %d\", uuid.Variant())\n\t\t}\n\t}\n}\n\nfunc TestClockSeq(t *testing.T) {\n\t// Fake time.Now for this test to return a monotonically advancing time; restore it at end.\n\tdefer func(orig func() time.Time) { timeNow = orig }(timeNow)\n\tmonTime := time.Now()\n\ttimeNow = func() time.Time {\n\t\tmonTime = monTime.Add(1 * time.Second)\n\t\treturn monTime\n\t}\n\n\tSetClockSequence(-1)\n\tuuid1, err := NewUUID()\n\tif err != nil {\n\t\tt.Fatalf(\"could not create UUID: %v\", err)\n\t}\n\tuuid2, err := NewUUID()\n\tif err != nil {\n\t\tt.Fatalf(\"could not create UUID: %v\", err)\n\t}\n\n\tif s1, s2 := uuid1.ClockSequence(), uuid2.ClockSequence(); s1 != s2 {\n\t\tt.Errorf(\"clock sequence %d != %d\", s1, s2)\n\t}\n\n\tSetClockSequence(-1)\n\tuuid2, err = NewUUID()\n\tif err != nil {\n\t\tt.Fatalf(\"could not create UUID: %v\", err)\n\t}\n\n\t// Just on the very off chance we generated the same sequence\n\t// two times we try again.\n\tif uuid1.ClockSequence() == uuid2.ClockSequence() {\n\t\tSetClockSequence(-1)\n\t\tuuid2, err = NewUUID()\n\t\tif err != nil {\n\t\t\tt.Fatalf(\"could not create UUID: %v\", err)\n\t\t}\n\t}\n\tif s1, s2 := uuid1.ClockSequence(), uuid2.ClockSequence(); s1 == s2 {\n\t\tt.Errorf(\"Duplicate clock sequence %d\", s1)\n\t}\n\n\tSetClockSequence(0x1234)\n\tuuid1, err = NewUUID()\n\tif err != nil {\n\t\tt.Fatalf(\"could not create UUID: %v\", err)\n\t}\n\tif seq := uuid1.ClockSequence(); seq != 0x1234 {\n\t\tt.Errorf(\"%s: expected seq 0x1234 got 0x%04x\", uuid1, seq)\n\t}\n}\n\nfunc TestCoding(t *testing.T) {\n\ttext := \"7d444840-9dc0-11d1-b245-5ffdce74fad2\"\n\turn := \"urn:uuid:7d444840-9dc0-11d1-b245-5ffdce74fad2\"\n\tdata := UUID{\n\t\t0x7d, 0x44, 0x48, 0x40,\n\t\t0x9d, 0xc0,\n\t\t0x11, 0xd1,\n\t\t0xb2, 0x45,\n\t\t0x5f, 0xfd, 0xce, 0x74, 0xfa, 0xd2,\n\t}\n\tif v := data.String(); v != text {\n\t\tt.Errorf(\"%x: encoded to %s, expected %s\", data, v, text)\n\t}\n\tif v := data.URN(); v != urn {\n\t\tt.Errorf(\"%x: urn is %s, expected %s\", data, v, urn)\n\t}\n\n\tuuid, err := Parse(text)\n\tif err != nil {\n\t\tt.Errorf(\"Parse returned unexpected error %v\", err)\n\t}\n\tif data != uuid {\n\t\tt.Errorf(\"%s: decoded to %s, expected %s\", text, uuid, data)\n\t}\n}\n\nfunc TestVersion1(t *testing.T) {\n\tuuid1, err := NewUUID()\n\tif err != nil {\n\t\tt.Fatalf(\"could not create UUID: %v\", err)\n\t}\n\tuuid2, err := NewUUID()\n\tif err != nil {\n\t\tt.Fatalf(\"could not create UUID: %v\", err)\n\t}\n\n\tif uuid1 == uuid2 {\n\t\tt.Errorf(\"%s:duplicate uuid\", uuid1)\n\t}\n\tif v := uuid1.Version(); v != 1 {\n\t\tt.Errorf(\"%s: version %s expected 1\", uuid1, v)\n\t}\n\tif v := uuid2.Version(); v != 1 {\n\t\tt.Errorf(\"%s: version %s expected 1\", uuid2, v)\n\t}\n\tn1 := uuid1.NodeID()\n\tn2 := uuid2.NodeID()\n\tif !bytes.Equal(n1, n2) {\n\t\tt.Errorf(\"Different nodes %x != %x\", n1, n2)\n\t}\n\tt1 := uuid1.Time()\n\tt2 := uuid2.Time()\n\tq1 := uuid1.ClockSequence()\n\tq2 := uuid2.ClockSequence()\n\n\tswitch {\n\tcase t1 == t2 \u0026\u0026 q1 == q2:\n\t\tt.Error(\"time stopped\")\n\tcase t1 \u003e t2 \u0026\u0026 q1 == q2:\n\t\tt.Error(\"time reversed\")\n\tcase t1 \u003c t2 \u0026\u0026 q1 != q2:\n\t\tt.Error(\"clock sequence changed unexpectedly\")\n\t}\n}\n\nfunc TestNode(t *testing.T) {\n\t// This test is mostly to make sure we don't leave nodeMu locked.\n\tifname = \"\"\n\tif ni := NodeInterface(); ni != \"\" {\n\t\tt.Errorf(\"NodeInterface got %q, want %q\", ni, \"\")\n\t}\n\tif SetNodeInterface(\"xyzzy\") {\n\t\tt.Error(\"SetNodeInterface succeeded on a bad interface name\")\n\t}\n\tif !SetNodeInterface(\"\") {\n\t\tt.Error(\"SetNodeInterface failed\")\n\t}\n\tif runtime.GOARCH != \"js\" {\n\t\tif ni := NodeInterface(); ni == \"\" {\n\t\t\tt.Error(\"NodeInterface returned an empty string\")\n\t\t}\n\t}\n\n\tni := NodeID()\n\tif len(ni) != 6 {\n\t\tt.Errorf(\"ni got %d bytes, want 6\", len(ni))\n\t}\n\thasData := false\n\tfor _, b := range ni {\n\t\tif b != 0 {\n\t\t\thasData = true\n\t\t}\n\t}\n\tif !hasData {\n\t\tt.Error(\"nodeid is all zeros\")\n\t}\n\n\tid := []byte{1, 2, 3, 4, 5, 6, 7, 8}\n\tSetNodeID(id)\n\tni = NodeID()\n\tif !bytes.Equal(ni, id[:6]) {\n\t\tt.Errorf(\"got nodeid %v, want %v\", ni, id[:6])\n\t}\n\n\tif ni := NodeInterface(); ni != \"user\" {\n\t\tt.Errorf(\"got interface %q, want %q\", ni, \"user\")\n\t}\n}\n\nfunc TestNodeAndTime(t *testing.T) {\n\t// Time is February 5, 1998 12:30:23.136364800 AM GMT\n\n\tuuid, err := Parse(\"7d444840-9dc0-11d1-b245-5ffdce74fad2\")\n\tif err != nil {\n\t\tt.Fatalf(\"Parser returned unexpected error %v\", err)\n\t}\n\tnode := []byte{0x5f, 0xfd, 0xce, 0x74, 0xfa, 0xd2}\n\n\tts := uuid.Time()\n\tc := time.Unix(ts.UnixTime())\n\twant := time.Date(1998, 2, 5, 0, 30, 23, 136364800, time.UTC)\n\tif !c.Equal(want) {\n\t\tt.Errorf(\"Got time %v, want %v\", c, want)\n\t}\n\tif !bytes.Equal(node, uuid.NodeID()) {\n\t\tt.Errorf(\"Expected node %v got %v\", node, uuid.NodeID())\n\t}\n}\n\nfunc TestMD5(t *testing.T) {\n\tuuid := NewMD5(NameSpaceDNS, []byte(\"python.org\")).String()\n\twant := \"6fa459ea-ee8a-3ca4-894e-db77e160355e\"\n\tif uuid != want {\n\t\tt.Errorf(\"MD5: got %q expected %q\", uuid, want)\n\t}\n}\n\nfunc TestSHA1(t *testing.T) {\n\tuuid := NewSHA1(NameSpaceDNS, []byte(\"python.org\")).String()\n\twant := \"886313e1-3b8a-5372-9b90-0c9aee199e5d\"\n\tif uuid != want {\n\t\tt.Errorf(\"SHA1: got %q expected %q\", uuid, want)\n\t}\n}\n\nfunc TestNodeID(t *testing.T) {\n\tnid := []byte{1, 2, 3, 4, 5, 6}\n\tSetNodeInterface(\"\")\n\ts := NodeInterface()\n\tif runtime.GOARCH != \"js\" {\n\t\tif s == \"\" || s == \"user\" {\n\t\t\tt.Errorf(\"NodeInterface %q after SetInterface\", s)\n\t\t}\n\t}\n\tnode1 := NodeID()\n\tif node1 == nil {\n\t\tt.Error(\"NodeID nil after SetNodeInterface\", s)\n\t}\n\tSetNodeID(nid)\n\ts = NodeInterface()\n\tif s != \"user\" {\n\t\tt.Errorf(\"Expected NodeInterface %q got %q\", \"user\", s)\n\t}\n\tnode2 := NodeID()\n\tif node2 == nil {\n\t\tt.Error(\"NodeID nil after SetNodeID\", s)\n\t}\n\tif bytes.Equal(node1, node2) {\n\t\tt.Error(\"NodeID not changed after SetNodeID\", s)\n\t} else if !bytes.Equal(nid, node2) {\n\t\tt.Errorf(\"NodeID is %x, expected %x\", node2, nid)\n\t}\n}\n\nfunc testDCE(t *testing.T, name string, uuid UUID, err error, domain Domain, id uint32) {\n\tif err != nil {\n\t\tt.Errorf(\"%s failed: %v\", name, err)\n\t\treturn\n\t}\n\tif v := uuid.Version(); v != 2 {\n\t\tt.Errorf(\"%s: %s: expected version 2, got %s\", name, uuid, v)\n\t\treturn\n\t}\n\tif v := uuid.Domain(); v != domain {\n\t\tt.Errorf(\"%s: %s: expected domain %d, got %d\", name, uuid, domain, v)\n\t}\n\tif v := uuid.ID(); v != id {\n\t\tt.Errorf(\"%s: %s: expected id %d, got %d\", name, uuid, id, v)\n\t}\n}\n\nfunc TestDCE(t *testing.T) {\n\tuuid, err := NewDCESecurity(42, 12345678)\n\ttestDCE(t, \"NewDCESecurity\", uuid, err, 42, 12345678)\n\tuuid, err = NewDCEPerson()\n\ttestDCE(t, \"NewDCEPerson\", uuid, err, Person, uint32(os.Getuid()))\n\tuuid, err = NewDCEGroup()\n\ttestDCE(t, \"NewDCEGroup\", uuid, err, Group, uint32(os.Getgid()))\n}\n\ntype badRand struct{}\n\nfunc (r badRand) Read(buf []byte) (int, error) {\n\tfor i := range buf {\n\t\tbuf[i] = byte(i)\n\t}\n\treturn len(buf), nil\n}\n\nfunc TestBadRand(t *testing.T) {\n\tSetRand(badRand{})\n\tuuid1 := New()\n\tuuid2 := New()\n\tif uuid1 != uuid2 {\n\t\tt.Errorf(\"expected duplicates, got %q and %q\", uuid1, uuid2)\n\t}\n\tSetRand(nil)\n\tuuid1 = New()\n\tuuid2 = New()\n\tif uuid1 == uuid2 {\n\t\tt.Errorf(\"unexpected duplicates, got %q\", uuid1)\n\t}\n}\n\nfunc TestSetRand(t *testing.T) {\n\tmyString := \"805-9dd6-1a877cb526c678e71d38-7122-44c0-9b7c-04e7001cc78783ac3e82-47a3-4cc3-9951-13f3339d88088f5d685a-11f7-4078-ada9-de44ad2daeb7\"\n\n\tSetRand(strings.NewReader(myString))\n\tuuid1 := New()\n\tuuid2 := New()\n\n\tSetRand(strings.NewReader(myString))\n\tuuid3 := New()\n\tuuid4 := New()\n\n\tif uuid1 != uuid3 {\n\t\tt.Errorf(\"expected duplicates, got %q and %q\", uuid1, uuid3)\n\t}\n\tif uuid2 != uuid4 {\n\t\tt.Errorf(\"expected duplicates, got %q and %q\", uuid2, uuid4)\n\t}\n}\n\nfunc TestRandomFromReader(t *testing.T) {\n\tmyString := \"8059ddhdle77cb52\"\n\tr := bytes.NewReader([]byte(myString))\n\tr2 := bytes.NewReader([]byte(myString))\n\tuuid1, err := NewRandomFromReader(r)\n\tif err != nil {\n\t\tt.Errorf(\"failed generating UUID from a reader\")\n\t}\n\t_, err = NewRandomFromReader(r)\n\tif err == nil {\n\t\tt.Errorf(\"expecting an error as reader has no more bytes. Got uuid. NewRandomFromReader may not be using the provided reader\")\n\t}\n\tuuid3, err := NewRandomFromReader(r2)\n\tif err != nil {\n\t\tt.Errorf(\"failed generating UUID from a reader\")\n\t}\n\tif uuid1 != uuid3 {\n\t\tt.Errorf(\"expected duplicates, got %q and %q\", uuid1, uuid3)\n\t}\n}\n\nvar asString = \"f47ac10b-58cc-0372-8567-0e02b2c3d479\"\nvar asBytes = []byte(asString)\n\nfunc BenchmarkParse(b *testing.B) {\n\tfor i := 0; i \u003c b.N; i++ {\n\t\t_, err := Parse(asString)\n\t\tif err != nil {\n\t\t\tb.Fatal(err)\n\t\t}\n\t}\n}\n\nfunc BenchmarkParseBytes(b *testing.B) {\n\tfor i := 0; i \u003c b.N; i++ {\n\t\t_, err := ParseBytes(asBytes)\n\t\tif err != nil {\n\t\t\tb.Fatal(err)\n\t\t}\n\t}\n}\n\n// parseBytesUnsafe is to benchmark using unsafe.\nfunc parseBytesUnsafe(b []byte) (UUID, error) {\n\treturn Parse(*(*string)(unsafe.Pointer(\u0026b)))\n}\n\nfunc BenchmarkParseBytesUnsafe(b *testing.B) {\n\tfor i := 0; i \u003c b.N; i++ {\n\t\t_, err := parseBytesUnsafe(asBytes)\n\t\tif err != nil {\n\t\t\tb.Fatal(err)\n\t\t}\n\t}\n}\n\n// parseBytesCopy is to benchmark not using unsafe.\nfunc parseBytesCopy(b []byte) (UUID, error) {\n\treturn Parse(string(b))\n}\n\nfunc BenchmarkParseBytesCopy(b *testing.B) {\n\tfor i := 0; i \u003c b.N; i++ {\n\t\t_, err := parseBytesCopy(asBytes)\n\t\tif err != nil {\n\t\t\tb.Fatal(err)\n\t\t}\n\t}\n}\n\nfunc BenchmarkNew(b *testing.B) {\n\tfor i := 0; i \u003c b.N; i++ {\n\t\tNew()\n\t}\n}\n\nfunc BenchmarkUUID_String(b *testing.B) {\n\tuuid, err := Parse(\"f47ac10b-58cc-0372-8567-0e02b2c3d479\")\n\tif err != nil {\n\t\tb.Fatal(err)\n\t}\n\tfor i := 0; i \u003c b.N; i++ {\n\t\tif uuid.String() == \"\" {\n\t\t\tb.Fatal(\"invalid uuid\")\n\t\t}\n\t}\n}\n\nfunc BenchmarkUUID_URN(b *testing.B) {\n\tuuid, err := Parse(\"f47ac10b-58cc-0372-8567-0e02b2c3d479\")\n\tif err != nil {\n\t\tb.Fatal(err)\n\t}\n\tfor i := 0; i \u003c b.N; i++ {\n\t\tif uuid.URN() == \"\" {\n\t\t\tb.Fatal(\"invalid uuid\")\n\t\t}\n\t}\n}\n",
+        "encoding": "base64"
+    },
+    {
+        "name": "version1.go",
+        "path": "version1.go",
+        "sha": "199a1ac65403edc1438d27c9aa71c698e6efeda4",
+        "size": 1257,
+        "url": "https://api.github.com/repos/google/uuid/contents/version1.go?ref=master",
+        "html_url": "https://github.com/google/uuid/blob/master/version1.go",
+        "git_url": "https://api.github.com/repos/google/uuid/git/blobs/199a1ac65403edc1438d27c9aa71c698e6efeda4",
+        "download_url": "https://raw.githubusercontent.com/google/uuid/master/version1.go",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/google/uuid/contents/version1.go?ref=master",
+            "git": "https://api.github.com/repos/google/uuid/git/blobs/199a1ac65403edc1438d27c9aa71c698e6efeda4",
+            "html": "https://github.com/google/uuid/blob/master/version1.go"
+        },
+        "content": "// Copyright 2016 Google Inc.  All rights reserved.\n// Use of this source code is governed by a BSD-style\n// license that can be found in the LICENSE file.\n\npackage uuid\n\nimport (\n\t\"encoding/binary\"\n)\n\n// NewUUID returns a Version 1 UUID based on the current NodeID and clock\n// sequence, and the current time.  If the NodeID has not been set by SetNodeID\n// or SetNodeInterface then it will be set automatically.  If the NodeID cannot\n// be set NewUUID returns nil.  If clock sequence has not been set by\n// SetClockSequence then it will be set automatically.  If GetTime fails to\n// return the current NewUUID returns nil and an error.\n//\n// In most cases, New should be used.\nfunc NewUUID() (UUID, error) {\n\tnodeMu.Lock()\n\tif nodeID == zeroID {\n\t\tsetNodeInterface(\"\")\n\t}\n\tnodeMu.Unlock()\n\n\tvar uuid UUID\n\tnow, seq, err := GetTime()\n\tif err != nil {\n\t\treturn uuid, err\n\t}\n\n\ttimeLow := uint32(now \u0026 0xffffffff)\n\ttimeMid := uint16((now \u003e\u003e 32) \u0026 0xffff)\n\ttimeHi := uint16((now \u003e\u003e 48) \u0026 0x0fff)\n\ttimeHi |= 0x1000 // Version 1\n\n\tbinary.BigEndian.PutUint32(uuid[0:], timeLow)\n\tbinary.BigEndian.PutUint16(uuid[4:], timeMid)\n\tbinary.BigEndian.PutUint16(uuid[6:], timeHi)\n\tbinary.BigEndian.PutUint16(uuid[8:], seq)\n\tcopy(uuid[10:], nodeID[:])\n\n\treturn uuid, nil\n}\n",
+        "encoding": "base64"
+    },
+    {
+        "name": "version4.go",
+        "path": "version4.go",
+        "sha": "c110465db5900d8715cd2d65c06cad506aeeb7aa",
+        "size": 1305,
+        "url": "https://api.github.com/repos/google/uuid/contents/version4.go?ref=master",
+        "html_url": "https://github.com/google/uuid/blob/master/version4.go",
+        "git_url": "https://api.github.com/repos/google/uuid/git/blobs/c110465db5900d8715cd2d65c06cad506aeeb7aa",
+        "download_url": "https://raw.githubusercontent.com/google/uuid/master/version4.go",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/google/uuid/contents/version4.go?ref=master",
+            "git": "https://api.github.com/repos/google/uuid/git/blobs/c110465db5900d8715cd2d65c06cad506aeeb7aa",
+            "html": "https://github.com/google/uuid/blob/master/version4.go"
+        },
+        "content": "// Copyright 2016 Google Inc.  All rights reserved.\n// Use of this source code is governed by a BSD-style\n// license that can be found in the LICENSE file.\n\npackage uuid\n\nimport \"io\"\n\n// New creates a new random UUID or panics.  New is equivalent to\n// the expression\n//\n//    uuid.Must(uuid.NewRandom())\nfunc New() UUID {\n\treturn Must(NewRandom())\n}\n\n// NewRandom returns a Random (Version 4) UUID.\n//\n// The strength of the UUIDs is based on the strength of the crypto/rand\n// package.\n//\n// A note about uniqueness derived from the UUID Wikipedia entry:\n//\n//  Randomly generated UUIDs have 122 random bits.  One's annual risk of being\n//  hit by a meteorite is estimated to be one chance in 17 billion, that\n//  means the probability is about 0.00000000006 (6 × 10−11),\n//  equivalent to the odds of creating a few tens of trillions of UUIDs in a\n//  year and having one duplicate.\nfunc NewRandom() (UUID, error) {\n\treturn NewRandomFromReader(rander)\n}\n\n// NewRandomFromReader returns a UUID based on bytes read from a given io.Reader.\nfunc NewRandomFromReader(r io.Reader) (UUID, error) {\n\tvar uuid UUID\n\t_, err := io.ReadFull(r, uuid[:])\n\tif err != nil {\n\t\treturn Nil, err\n\t}\n\tuuid[6] = (uuid[6] \u0026 0x0f) | 0x40 // Version 4\n\tuuid[8] = (uuid[8] \u0026 0x3f) | 0x80 // Variant is 10\n\treturn uuid, nil\n}\n",
+        "encoding": "base64"
+    }
+]

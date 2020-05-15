@@ -18,7 +18,24 @@ func handleRequests() {
 }
 
 func main() {
+	// getFileDataFromLocalFile()
 	handleRequests()
+}
+
+func getFileDataFromLocalFile() []File {
+	fmt.Println("getting data from local file...")
+	data, err := ioutil.ReadFile("./google-uuid.contents.json")
+	if err != nil {
+		fmt.Print(err.Error())
+	}
+
+	var fileData []File
+	err = json.Unmarshal(data, &fileData)
+	if err != nil {
+		fmt.Print("error: ", err)
+	}
+
+	return fileData
 }
 
 func getFileData(user string, repo string, filePath string, contents chan File) {
@@ -69,8 +86,6 @@ func getRepoData(user string, repo string, contents chan []FileMetadata) {
 		}
 	}
 
-	fmt.Print(len(Files))
-
 	contents <- repoData
 }
 
@@ -80,12 +95,22 @@ func returnRepo(w http.ResponseWriter, r *http.Request) {
 	go getRepoData(vars["git_name"], vars["git_repo"], contents)
 	Contents = <-contents
 
-	json.NewEncoder(w).Encode(Contents)
+	if Contents == nil {
+		fmt.Println("contents empty, Github's rate limiter likely reached. Pulling data from saved file")
+		Files = getFileDataFromLocalFile()
+	}
+
+	for i := range Files {
+		Files[i].Content = decodeString(Files[i].Content)
+	}
+	json.NewEncoder(w).Encode(Files)
 }
 
 func decodeString(encodedString string) string {
-	decodedString, _ := base64.StdEncoding.DecodeString(encodedString)
-	fmt.Printf(string(decodedString))
+	decodedString, err := base64.StdEncoding.DecodeString(encodedString)
+	if err != nil {
+		fmt.Println(err)
+	}
 	return string(decodedString)
 }
 
